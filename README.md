@@ -1,2 +1,2 @@
-# Kairos-
+# Kairos
 Password Generator Application 
