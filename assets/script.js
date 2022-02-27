@@ -10,18 +10,33 @@ var specialCharacter = ["~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "
 
 // TO DO: when button is clicked I am presented with prompts for password criteria 
 function generatePassword() {
-  var generateBtn = prompt("Please select password length: between 8-128 characters.");
-}
 // TO DO: when prompted, I select which criteria to include, ask between 8-128 characters
-
+  var generateBtn = prompt("Please select password length: between 8-128 characters.");
 // TO DO: Choose character types (lowercase, uppercase, numeric, special characters)
 
-// TO DO: Validate and choose and least one character type 
+if(generateBtn < 8 || generateBtn > 128) {
+  window.alert("You need to provide a valid answer! Please try again.");
+  return passwords;
+}
 
+if(lowerCase) {
+  window.confirm("Do you want to include lowercase?");
+}
+
+if (upperCase){
+  window.confirm("Do you want to include UPPERCASE?");
+}
+if (specialCharacter) {
+  window.confirm("Do you want to include special characters(!@#$%)?");
+}
+// TO DO: Validate and choose and least one character type 
+if(lowerCase === "ok") {
+  console.log("this works ")
+}
 // TO DO: Generate password 
 
 // TO DO: Display an alert or write password on page 
-
+}
 
 // Write password to the #password input
 function writePassword() {
