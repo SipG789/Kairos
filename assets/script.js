@@ -30,9 +30,7 @@ if (specialCharacter) {
   window.confirm("Do you want to include special characters(!@#$%)?");
 }
 // TO DO: Validate and choose and least one character type 
-if(lowerCase === "ok") {
-  console.log("this works ")
-}
+
 // TO DO: Generate password 
 
 // TO DO: Display an alert or write password on page 
