@@ -1,11 +1,11 @@
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 //using W3 schools to determine arrays and bootcamp 3.2.4
-var lowerCase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
-var upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
-var numeric = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
+const lowerCase = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+const upperCase = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
+const numeric = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"];
 // using characters from keyboard that match owasp.org characters 
-var specialCharacter = ["~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"];
+const specialCharacter = ["~", "!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_", "+"];
 
 
 // TO DO: when button is clicked I am presented with prompts for password criteria 
@@ -20,21 +20,31 @@ if(generateBtn < 8 || generateBtn > 128) {
 }
 
 if(lowerCase) {
-  window.confirm("Do you want to include lowercase?");
+  window.confirm("Do you want to include lowercase?");  
+  let lower = lowerCase.length;
+
+  for (let i= 0; i < lower; i++);
 }
 
 if (upperCase){
   window.confirm("Do you want to include UPPERCASE?");
+  let upper = upperCase.length;
+
+  for (let i= 0; i < upper; i++);
 }
 if (specialCharacter) {
   window.confirm("Do you want to include special characters(!@#$%)?");
-}
-// TO DO: Validate and choose and least one character type 
 
+  let spec = specialCharacter.length;
+
+  for (let i= 0; i < spec; i++);
+  }
+
+  return Math.floor(Math.random()*12);
+}
 // TO DO: Generate password 
+    // TO DO: Display an alert or write password on page 
 
-// TO DO: Display an alert or write password on page 
-}
 
 // Write password to the #password input
 function writePassword() {
@@ -44,6 +54,7 @@ function writePassword() {
   passwordText.value = password;
 
 }
+
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
