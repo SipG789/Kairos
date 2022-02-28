@@ -1,5 +1,5 @@
 # Kairos
-Password Generator Application 
+## Password Generator Application 
 
 ### In this application I attempted to create a password generator that rendered a password based on user input. The application currently does not give out more than one input. However, I was able to get the confirmations to work. 
 
@@ -8,6 +8,8 @@ Password Generator Application
 www.w3schools.com
 www.stackoverflow.com
 UTSA Bootcamp Module 3
+
+Robot Gladiators
 ```
 
 The following image shows a screenshot of the application. 
@@ -34,4 +36,4 @@ WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
 
-The link to the website is here: 
+The link to the website is here: https://sipg789.github.io/Kairos/ 
