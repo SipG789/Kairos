@@ -1,7 +1,7 @@
 # Kairos
 ## Password Generator Application 
 
-### In this application I attempted to create a password generator that rendered a password based on user input. At the moment the commands do prompt up and a password is generated. However, I van't seem to get the user input to output the same total of characters for the password. 
+### In this application I attempted to create a password generator that rendered a password based on user input. At the moment the commands do prompt up and a password is generated. However, I can't seem to get the user input to output the same total of characters for the password. 
 
 ### I used the following resources to help me build my code:
 ```
