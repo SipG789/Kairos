@@ -6,7 +6,7 @@
 ### I used the following resources to help me build my code:
 ```
 www.w3schools.com
-www.stackoverflow.com (I found a starter code and modified it to fit with the criteria)
+www.stackoverflow.com 
 UTSA Bootcamp Module 3
 Robot Gladiators
 ```
