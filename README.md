@@ -1,20 +1,19 @@
 # Kairos
 ## Password Generator Application 
 
-### In this application I attempted to create a password generator that rendered a password based on user input. The application currently does not give out more than one input. However, I was able to get the confirmations to work. 
+### In this application I attempted to create a password generator that rendered a password based on user input. At the moment the commands do prompt up and a password is generated. However, I van't seem to get the user input to output the same total of characters for the password. 
 
 ### I used the following resources to help me build my code:
 ```
 www.w3schools.com
-www.stackoverflow.com
+www.stackoverflow.com (I found a starter code and modified it to fit with the criteria)
 UTSA Bootcamp Module 3
-
 Robot Gladiators
 ```
 
 The following image shows a screenshot of the application. 
 
-![screenshot](./assets/website-sample.png)
+![screenshot](./assets/web-sample.png)
 
 ## Accepted Criteria 
 
